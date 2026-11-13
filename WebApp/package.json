@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "argon2": "^0.45.1",
+    "bcryptjs": "^3.0.3",
+    "firebase": "^13.1.0",
+    "tailwindcss": "^4.3.3"
+  },
+  "allowScripts": {
+    "firebase@12.19.0": true,
+    "protobufjs@7.6.6": true,
+    "@firebase/util@1.15.3": true,
+    "protobufjs@6.11.6": true,
+    "argon2@0.45.1": true
+  }
+}
