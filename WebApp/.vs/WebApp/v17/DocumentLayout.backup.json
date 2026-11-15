@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\WebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|c:\\users\\stepa\\documents\\.school\\y3s1\\group project\\webapp\\webapp\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|c:\\users\\stepa\\documents\\.school\\y3s1\\group project\\agentic-lender\\webapp\\webapp\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|solutionrelative:webapp\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|c:\\users\\stepa\\documents\\.school\\y3s1\\group project\\agentic-lender\\webapp\\webapp\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|solutionrelative:webapp\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|c:\\users\\stepa\\documents\\.school\\y3s1\\group project\\agentic-lender\\webapp\\webapp\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|solutionrelative:webapp\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\src\\App.css",
+              "RelativeDocumentMoniker": "webapp\\src\\App.css",
+              "ToolTip": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\src\\App.css",
+              "RelativeToolTip": "webapp\\src\\App.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-15T15:28:55.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\WebApp\\webapp\\src\\App.jsx",
+              "DocumentMoniker": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\src\\App.jsx",
               "RelativeDocumentMoniker": "webapp\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\WebApp\\webapp\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\src\\App.jsx",
               "RelativeToolTip": "webapp\\src\\App.jsx",
-              "ViewState": "AgIAAGQAAAAAAAAAAADwv2QAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-10-24T17:50:28.703Z",
+              "WhenOpened": "2026-11-15T15:14:56.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\src\\main.jsx",
+              "RelativeDocumentMoniker": "webapp\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\src\\main.jsx",
+              "RelativeToolTip": "webapp\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-11-15T15:12:10.095Z",
               "EditorCaption": ""
             }
           ]

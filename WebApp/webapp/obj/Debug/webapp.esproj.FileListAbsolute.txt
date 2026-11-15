@@ -1,1 +1,2 @@
 C:\Users\stepa\Documents\.School\Y3S1\Group Project\WebApp\WebApp\obj\Debug\webapp.esproj.CoreCompileInputs.cache
+C:\Users\stepa\Documents\.School\Y3S1\Group Project\agentic-lender\WebApp\WebApp\obj\Debug\webapp.esproj.CoreCompileInputs.cache

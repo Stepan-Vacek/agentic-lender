@@ -26,13 +26,13 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
-    background: #EBEDDD
-}
+    button:hover {
+        background: #EDEDED
+    }
 
-button:focus {
-    border: 2px solid #40B0F5;
-}
+    button:focus {
+        border: 2px solid #40B0F5;
+    }
 
 
 form {
@@ -47,6 +47,18 @@ form input {
         margin-bottom: 5px;
 }
 
+header h1 {
+    font-size: 25px;
+    color: white;
+}
+
+#my_header {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
 footer {
     bottom: 0;
     left: 0;
@@ -56,18 +68,6 @@ footer {
     height: 88px;
     border-top: 1px solid var(--border);
     padding-top: 25px;
-}
-
-.hero {
-  position: relative;
-
-    .base {
-        inset-inline: 0;
-        margin: 0 auto;
-        width: 170px;
-        position: relative;
-        z-index: 0;
-    }
 }
 
 #center {
@@ -84,3 +84,36 @@ footer {
     gap: 18px;
   }
 }
+
+#pipeline {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.pipeline_file {
+    padding: 15px;
+}
+
+.pipeline_file:hover {
+    cursor: pointer;
+    background-color: #EDEDED;
+}
+
+#breakdown_table {
+    border: 2px solid black;
+}
+
+    #breakdown_table tr {
+        border: 1px solid black;
+        padding: 1px;
+    }
+
+    #breakdown_table tr th {
+        padding: 2px 5px 2px 5px;
+        border: 1px solid black;
+    }
+
+    #breakdown_table tr td {
+        padding: 2px 5px 2px 5px;
+        border: 1px solid black;
+    }
