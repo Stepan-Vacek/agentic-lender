@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|c:\\users\\stepa\\documents\\.school\\y3s1\\group project\\agentic-lender\\webapp\\webapp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E267B2F-906F-90D0-AE30-1D10622C2BD7}|WebApp\\webapp.esproj|solutionrelative:webapp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\package.json",
+              "RelativeDocumentMoniker": "webapp\\package.json",
+              "ToolTip": "C:\\Users\\stepa\\Documents\\.School\\Y3S1\\Group Project\\agentic-lender\\WebApp\\webapp\\package.json",
+              "RelativeToolTip": "webapp\\package.json",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-22T18:26:47.189Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
