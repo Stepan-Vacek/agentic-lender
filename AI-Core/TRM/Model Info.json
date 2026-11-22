@@ -1,0 +1,12 @@
+{
+    "model_name": "Gradient Boosting Model",
+    "test_accuracy": "R\u00b2:   0.6389",
+    "features": [
+        "Number of Bedrooms",
+        "Number of Bathrooms",
+        "Floor Area (m2)",
+        "Property Type",
+        "County",
+        "BER Rating"
+    ]
+}
