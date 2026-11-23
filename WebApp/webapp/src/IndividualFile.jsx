@@ -56,7 +56,6 @@ export default function IndividualFile(window, setWindow) {
         if (document.getElementById("content") != null) {
             document.getElementById("content").style.marginLeft = "250px";
         }
-        console.log('open button press');
     }
 
     function closeNav() {
@@ -66,7 +65,6 @@ export default function IndividualFile(window, setWindow) {
         if (document.getElementById("content") != null) {
             document.getElementById("content").style.marginLeft = "0";
         }
-        console.log('close button press');
     }
 
 
@@ -77,7 +75,11 @@ export default function IndividualFile(window, setWindow) {
                 <button type="button" class="closebtn" onClick={closeNav}>&times;</button>
                 <br></br>
                 <h3>Stress Testing Console</h3>
-                <p>Dummy text, replace later</p>
+                <form>
+                    <label for="shock">Interest rate shock (ppi)</label> <br></br>
+                    <input type="number" placeholder="100" name="shock" min="100" max="300"></input>
+                    <button onClick={() => alert("Not yet implemented!")}>Apply</button>
+                </form>
             </div>
             <section id="center">
                 <button onClick={() => setWindow(null)}>Back</button>
