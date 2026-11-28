@@ -1,19 +1,27 @@
 import { MyFooter, MyHeader } from "./Reusables";
 import IndividualFile from "./IndividualFile";
 
-export default function Landing(user, setlogged, files, setFiles, window, setWindow, lock, setLock) {
+export default function Landing(user, setlogged, files, setFiles, window, setWindow, lock, setLock, shock, setShock, staticWindow, setStaticWindow) {
 
     function handleLogOff(setlogged) {
         setlogged(false);
     }
 
-    if (user.type === "broker" && lock === false) {
-        setFiles(files.filter(file => file.assigned_broker === user.id))
+    if (lock === false) {
+        if (user.type === "broker") {
+            setFiles(files.filter(file => file.assigned_broker === user.id))
+        }
+        setShock(0)
         setLock(true)
     }
 
+    function setWindows(file) {
+        setWindow(file)
+        setStaticWindow(file)
+    }
+
     const list = files.map(file =>
-        <div class="pipeline_file" onClick={() => setWindow(file)}>
+        <div class="pipeline_file" onClick={() => setWindows(file)}>
             <h2>{file.name} [{file.id}]</h2>
             <h3 style={{ color: 'red', fontWeight: 'bold' }} >{file.status}</h3>
             <p class="dti">DTI: {file.debt_to_income}%</p>
@@ -42,7 +50,7 @@ export default function Landing(user, setlogged, files, setFiles, window, setWin
             </div>
         )
     } else {
-        return IndividualFile(window, setWindow);
+        return IndividualFile(window, setWindow, shock, setShock, staticWindow);
     }
 
 }

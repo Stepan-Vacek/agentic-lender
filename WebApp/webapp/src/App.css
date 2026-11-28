@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+* {
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif
+}
+
 #logheader {
     padding-top: 25px;
 }
@@ -137,6 +141,16 @@ footer {
     transition: 0.5s;
 }
 
+    #stress_sidebar h3 {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    #stress_sidebar label {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
     #stress_sidebar #closebtn {
         position: absolute;
         top: 0;
@@ -150,4 +164,5 @@ footer {
 
         #stress_sidebar #closebtn:hover {
             background-color: darkgray;
+            color: black;
         }
